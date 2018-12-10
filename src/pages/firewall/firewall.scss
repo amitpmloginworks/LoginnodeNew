@@ -1,0 +1,123 @@
+page-firewall {
+    .item-md{
+        margin-bottom: 17px;
+        border: 1px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;
+        padding-right:0px;
+    }
+    .item-ios{
+        margin-bottom: 17px;
+        border: 1px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;  
+        padding-right:0px;   
+    }
+    h2{
+        color:#3096F7;
+        font-family: "Lato"
+    }
+    
+   p{
+      color:#191A45;
+      font-family: "Lato"  
+    }
+    .p-details{
+    color:#191A45;
+    font-family: "Lato-Bold";
+    font-size:16px;
+    }
+    .item-block[no-lines] {
+        border-bottom:1px solid black;
+        border-radius:0px;
+        padding-bottom:10px;
+    }
+    .item-md p {
+    color:#191A45;
+    font-family: "Lato";
+    font-size:16px;
+    }
+    .item-ios p {
+        color:#191A45;
+        font-family: "Lato";
+        font-size:16px;
+        }
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+
+    .label-md {
+        color:#3096F7;
+        font-family: "Lato";
+        font-size:16px;
+    }
+    .label-ios {
+        color:#3096F7;
+        font-family: "Lato";
+        font-size:16px;
+    }
+    .item-md.item-block .item-inner {
+        border-bottom: 0px solid #FFFFFF;
+    }
+    .item-ios.item-block .item-inner {
+        border-bottom: 0px solid #FFFFFF;
+    }
+    .item-md ion-avatar img {
+        border-radius: 0%; 
+       overflow: hidden;
+       width: 35px;
+       height: 35px;
+   }
+   .item-ios ion-avatar img {
+       border-radius: 0%; 
+      overflow: hidden;
+      width: 35px;
+      height: 35px;
+  }
+  .item-md .item-button {
+    padding-right:0px;
+    margin-right:0px;
+    height:33px;
+}
+.item-ios .item-button {
+    padding-right:0px;
+    margin-right:0px;
+    height:33px;
+}
+
+.item-md h2{
+    color:#3096F7;
+    font-family: "Lato";
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.item-ios h2{
+    color:#3096F7;
+    font-family: "Lato";
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.item-md p{
+    color:#191A45;
+    font-family: "Lato";
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.item-ios p{
+    color:#191A45;
+    font-family: "Lato";
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+}

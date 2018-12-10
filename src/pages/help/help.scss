@@ -1,0 +1,46 @@
+page-help {
+
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        margin-right: 45px;
+        font-size:14px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .item-md{
+        margin-bottom: 17px;
+        border: 1px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;
+       
+    }
+    .item-ios{
+        margin-bottom: 17px;
+        border: 0.6px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;   
+    }
+    .item-md.item-block .item-inner {
+        border-bottom: 0px solid #FFFFFF;
+    }
+    .item-ios.item-block .item-inner {
+        border-bottom: 0px solid #FFFFFF;
+    }
+
+    .item-md p{
+        white-space: normal;
+        color:#3096F7;
+        font-family: "Lato";
+        font-size: 16px;
+    }
+    .item-ios p{
+        white-space: normal;
+        color:#3096F7;
+        font-family: "Lato";
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,64 @@
+page-firewalltype {
+
+    .div-main{
+       // position:relative;
+        width:90%;
+        border-radius:6px;
+        margin: auto;
+        background-color: #FFFFFF;
+        margin-top:40%;      
+    }
+
+    .content-md{   
+        background-color: rgba(0,0,0,0.6);
+    }
+    .content-ios{   
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .label-md{
+        color:#363636;
+        font-family: "Lato";
+        font-size: 20px;
+    }
+    .label-ios{
+        color:#363636;
+        font-family: "Lato";
+        font-size: 20px;
+    }
+    .button-md {
+        width:100%;
+        border-radius:30px;
+        background-color: #3096F7;
+        height: 5.0rem;
+        max-height: 5.0rem;
+        color:#FFFFFF;
+        font-size:17px;
+        font-family:"Lato-Bold";
+        text-transform: initial;
+    }
+    .button-ios {
+        width:100%;
+        border-radius:30px;
+        background-color: #3096F7;
+        height: 5.0rem;
+        max-height: 5.0rem;
+        color:#FFFFFF;
+        font-size:17px;
+        font-family:"Lato-Bold";
+        text-transform: initial;
+    }
+    .row{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 10px;
+    }
+    .item-md .radio-md[item-left], .item-md .radio-md[item-start] {
+        margin-right:14px;
+    }
+    .item-ios .radio-ios[item-left], .item-ios .radio-ios[item-start] {
+        margin-right:14px;
+    }
+    
+    
+}

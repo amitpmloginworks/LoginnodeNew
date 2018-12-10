@@ -1,0 +1,38 @@
+.ios, .md{
+    page-splash {
+        .scroll-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-splash{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url(../assets/imgs/splash-bg.png); 
+        }
+        .p-text{
+            text-align: center;
+            color:#3096F7;
+            font-size:16px;
+            font-family: "Lato";
+            position: absolute;
+            bottom: 6%;
+        }
+    }
+    @keyframes fadeInAndSpin {
+ 
+        100% {
+            opacity: 1;
+            transform: rotate3d(1, 1, 0, 0deg);
+        }
+     
+    }
+     
+    @keyframes fadeIn {
+     
+        100% {
+            opacity: 1;
+        }
+     
+}
+}

@@ -1,0 +1,31 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>welcome</ion-title>
+  </ion-navbar>
+
+</ion-header>-->
+
+<ion-content style="background: #F9FBFC" padding>
+
+  <img class="img-logo" src="assets/imgs/node-logo.png" />
+
+  <p class="welcome-text" text-center>Welcome to LoginNode</p>
+
+  <ion-item no-lines>
+    <ion-input placeholder="Enter Email for Client Version" type='email'> </ion-input>
+  </ion-item>
+
+  <ion-item no-lines>
+    <ion-input placeholder="Enter Mobile Number" type='number'> </ion-input>
+  </ion-item>
+
+  <button full ion-button (click)="navigateToAddServer()">Request Client Download</button>
+
+</ion-content>

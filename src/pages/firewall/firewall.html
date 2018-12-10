@@ -1,0 +1,112 @@
+<!--
+  Generated template for the FirewallPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color='light'>
+    <ion-title text-center>Firewall</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="doClick()">
+        <ion-icon>
+          <img src="assets/icon/search.png" />
+        </ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content style="background-color:#F9FBFC" padding>
+  <ion-item no-lines>
+    <ion-avatar item-start>
+      <img src="assets/icon/checked.png">
+    </ion-avatar>
+    <h2>Server Name</h2>
+    <p>10.0.0.183</p>
+    <button style="height:40px; margin-right: 0px; padding-right: 0px;" ion-button clear item-end>
+      <ion-icon (click)="selectFirewallType()">
+        <img src="assets/icon/group.png" />
+      </ion-icon>
+    </button>
+  </ion-item>
+
+
+  <ion-item no-lines style="border:0px solid #fff; padding-left:0px; background-color: #F9FBFC">
+    <ion-label style="font-family:Lato-Bold;color:#363636; margin-left:0px">Turn Windows Firewall on or off</ion-label>
+    <!-- <ion-toggle mode='ios' [(ngModel)]="pepperoni"></ion-toggle> -->
+    <button ion-button clear item-end>
+      <ion-icon style="font-size:0.5rem">
+        <img width="40" height="27" src="assets/icon/off.png" />
+      </ion-icon>
+    </button>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/checked.png">
+      </ion-avatar>
+      <h2>Performance</h2>
+      <p>performance</p>
+      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text">
+
+      </ion-toggle> -->
+      <button ion-button clear item-end>
+        <ion-icon style="font-size:0.5rem">
+          <img width="40" height="27" src="assets/icon/on.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/checked.png">
+      </ion-avatar>
+      <h2>Run Command</h2>
+      <p>Execute Commands in cmd</p>
+
+      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text2">
+      </ion-toggle> -->
+      <button ion-button clear item-end>
+        <ion-icon style="font-size:0.5rem">
+          <img width="40" height="27" src="assets/icon/off.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/checked.png">
+      </ion-avatar>
+      <h2>Batch File</h2>
+      <p>Acess List of Batch Files</p>
+<!-- 
+      <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text1">
+        <p>fsfsd</p>
+      </ion-toggle> -->
+
+      <button ion-button clear item-end>
+        <ion-icon style="font-size:0.5rem">
+          <img width="40" height="27" src="assets/icon/on.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/checked.png">
+      </ion-avatar>
+      <h2>Skype</h2>
+      <p>Acess List of Batch Files</p>
+      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text4">
+
+      </ion-toggle> -->
+      <button ion-button clear item-end>
+        <ion-icon style="font-size:0.5rem">
+          <img width="40" height="27" src="assets/icon/off.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+

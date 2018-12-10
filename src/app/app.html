@@ -1,0 +1,42 @@
+
+<ion-menu  id="authenticated" side="left" [content]="content">
+        <ion-content style="margin-top:35px">
+          <!-- <ion-list>
+            <p>Share App</p>
+            <p>RateApp</p>
+          </ion-list> -->
+          
+          <ion-item no-lines>
+            <button color="black" clear ion-button> <ion-icon><img src="assets/icon/share.png"/></ion-icon>  <label style="margin-left: 10px;">Share App</label> </button>
+          </ion-item>
+          <ion-item no-lines>
+            <button color="black" clear ion-button> <ion-icon><img src="assets/icon/star.png"/></ion-icon>  <label style="margin-left: 10px;">Rate App</label> </button>
+          </ion-item>
+                    
+
+        </ion-content>
+      </ion-menu>
+
+      <style>
+      
+      .item-md .item-button {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:16px;
+        text-transform: inherit;
+      }
+      .item-ios .item-button {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:16px;
+        text-transform: inherit;
+      }
+
+
+      .scroll-content {
+        top:35px ! important;
+      }
+      
+      </style>
+      <!-- <ion-nav [root]="rootPage"></ion-nav> -->
+      <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

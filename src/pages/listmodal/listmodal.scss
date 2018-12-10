@@ -1,0 +1,56 @@
+page-listmodal {
+    .div-main{
+         width:55%;
+         border-radius:6px;
+         float:right;
+         background-color: #FFFFFF;
+         margin-top:30%;      
+     }
+ 
+     .content-md{   
+         background-color: rgba(0,0,0,0.6);
+     }
+     .content-ios{   
+        background-color: rgba(0,0,0,0.6);
+    }
+     .button-clear-md {
+         color:#191A45;
+         text-transform: initial;
+         font-size:17px;
+         font-family: "Lato"
+     }
+
+     .button-clear-ios {
+        color:#191A45;
+        text-transform: initial;
+        font-size:17px;
+        font-family: "Lato"
+    }
+     .label-md {
+        color:#191A45;
+         text-transform: initial;
+         font-size:26px;
+         font-family: "Lato"  
+     }
+     .label-ios {
+        color:#191A45;
+         text-transform: initial;
+         font-size:26px;
+         font-family: "Lato"  
+     }
+
+     label, input, select, textarea {
+        color:#191A45;
+         text-transform: initial;
+         font-size:16px;
+         font-family: "Lato" 
+    }
+    .item-md{
+        height: 4.2rem;
+        max-height:4.2rem;
+    }
+    .item-ios{
+        height: 4.2rem;
+        max-height:4.2rem;
+    }
+}

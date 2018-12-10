@@ -1,0 +1,45 @@
+<!--
+  Generated template for the RuncommandsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color='light'>
+
+    <ion-title text-center>cmd.></ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="doClick()">
+        <ion-icon>
+          <img src="assets/icon/text.png" />
+        </ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button class="button-style" ion-button (click)="clearLog()">
+        Clear Log
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <button style="font-size:1.6rem;font-family:'Lato';color:#FFFFFF" ion-button (click)="scheduleCommands()">Schedule Commands</button>
+ 
+  <ion-row style="position:absolute;bottom:5%;">
+    <ion-col col-9>
+      <ion-item no-lines>
+        <ion-input placeholder="Write your Log" type='text'> </ion-input>
+        <ion-icon item-right>
+          <img src="assets/icon/mic.png" />
+        </ion-icon>
+      </ion-item>
+    </ion-col>
+    <ion-col col-3 text-center>
+      <ion-item no-lines style="background-color:#FFD500;color:#000000;border-radius:10px">
+        Run
+      </ion-item>
+    </ion-col>
+  </ion-row>
+</ion-content>

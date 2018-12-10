@@ -1,0 +1,58 @@
+page-newbatchfile {
+    .item-md[no-lines]{
+        margin-bottom:20px;
+        border: 1px solid #E0E0E0;
+        border-radius:6px;
+    }
+    .item-ios[no-lines]{
+        margin-bottom:20px;
+        border: 1px solid #E0E0E0;
+        border-radius:6px;
+    }
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+
+    .label-md{
+        color:#363636;
+        font-size:16px;
+        font-family: "Lato;"
+    }
+    .label-ios{
+        color:#363636;
+        font-size:16px;
+        font-family: "Lato;"
+    }
+
+    .button-md{
+        margin-top:20px;
+         border-radius:30px;
+         background-color: #3096F7;
+         height: 5.2rem;
+         max-height: 5.2rem;
+         color:#FFFFFF;
+         opacity:100%;
+         font-size:17px;
+         font-family:"Lato-Bold";
+         text-transform: initial;
+      }
+      .button-ios{
+          margin-top:20px;
+           border-radius:30px;
+           background-color: #3096F7;
+           height: 5.2rem;
+           max-height: 5.2rem;
+           color:#FFFFFF;
+           opacity:100%;
+           font-size:17px;
+           font-family:"Lato-Bold";
+           text-transform: initial;
+        }
+}

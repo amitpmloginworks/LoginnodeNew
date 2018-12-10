@@ -1,0 +1,78 @@
+page-runcommands {
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .btn-style{
+     background-color: #3096F7;
+     color:#FFFFFF;
+     border-radius:4px;
+
+    }
+    .button-style {
+        color:#FFFFFF ! important;
+        font-size:1.1rem;
+        font-family:"Lato";
+        text-transform: initial;
+        border-radius:5px;
+        background-color: #3096F7;
+    }
+    .button-md{
+         border-radius:30px;
+         background-color: #3096F7;
+         height: 5.2rem;
+         max-height: 5.2rem;
+         color:#FFFFFF;
+         width: 100%;
+         position: relative;
+         top: 60%;
+         font-size:1.8rem;
+         font-family:"Lato-Bold";
+         text-transform: initial;
+      }
+      .button-ios{
+           width: 100%;
+           position: relative;
+           top: 60%;
+           border-radius:30px;
+           background-color: #3096F7;
+           height: 5.2rem;
+           max-height: 5.2rem;
+           font-size:1.8rem;
+           color:#FFFFFF;
+           font-size:17px;
+           font-family:"Lato-Bold";
+           text-transform: initial;
+        }
+        .item-md[no-lines]{
+            margin-bottom:20px;
+            border: 1px solid #E0E0E0;
+            border-radius:10px;
+        }
+        .item-ios[no-lines]{
+            margin-bottom:20px;
+            border: 1px solid #E0E0E0;
+            border-radius:10px;
+        }
+        .text-input::-webkit-input-placeholder {
+            color: #000000;
+            font-size:14px;
+          }
+          .label-md{
+            margin-left: 4px;
+            margin-right: 0px;
+            margin-top: 16px;
+          }
+          .label-ios{
+            margin-left: 4px;
+            margin-right: 0px;
+            margin-top: 16px;
+          }
+          
+}

@@ -1,0 +1,116 @@
+page-process {
+    .item-md{
+        margin-bottom: 17px;
+        border: 1px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;
+       
+    }
+    .item-ios{
+        margin-bottom: 17px;
+        border: 0.6px solid #E8E9EB;
+        border-radius:5px;
+        background-color:#FFFFFF;
+       
+    }
+    
+    h2{
+        color:#3096F7;
+        font-family: "Lato"
+    }   
+    p{
+      color:#191A45;
+      font-family: "Lato"  
+    }
+    .p-details{
+    color:#191A45;
+    font-family: "Lato-Bold";
+    font-size:16px;
+    }
+    
+    .item-block[no-lines] {
+        border-bottom:1px solid black;
+        border-radius:0px;
+        padding-bottom:10px;
+    }
+    .item-md p {
+    color:#000000;
+    font-family: "Lato";
+    font-size:12px;
+    }
+    .item-ios p {
+        color:#191A45;
+        font-family: "Lato";
+        font-size:16px;
+        }
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:14px;
+    }
+    .item-md ion-avatar img {
+        border-radius: 0%; 
+    }
+    .item-ios ion-avatar img {
+        border-radius: 0%; 
+    }
+    .item-md.item-block .item-inner {
+        border-bottom: 0px solid #FFFFFF;
+    }
+    .div-main{
+        // position:relative;
+         width:90%;
+         border-radius:6px;
+         margin: auto;
+         background-color: #FFFFFF;
+         margin-top:40%;      
+     }
+ 
+    //  .content-md{   
+    //      background-color: rgba(0,0,0,0.6);
+    //  }
+ 
+     .btn-style {
+        width:100%;
+        border-radius:30px;
+        background-color: #3096F7;
+        height: 4.5rem;
+        max-height: 4.5rem;
+        color:#FFFFFF;
+        font-size:17px;
+        font-family:"Lato-Bold";
+        text-transform: initial;
+    }
+
+    #overlay {
+        padding-top: 50px;
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 200%; /* Full height (cover the whole page) */
+        top: 0; 
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.6); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    }
+    .p-text{
+    color:#363636;
+    font-size:20px;
+    font-family:"Lato";
+    padding-left: 19px;
+    
+    }
+    .div-inner{
+        width:80%;
+        margin:auto;
+        border-radius:10px;
+        background-color:#FFFFFF
+    }
+}
