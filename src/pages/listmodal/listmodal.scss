@@ -1,10 +1,11 @@
 page-listmodal {
-    .div-main{
-         width:55%;
+    #div-main{
+         width:46%;
+         position:relative;
+         top:130px;
          border-radius:6px;
          float:right;
-         background-color: #FFFFFF;
-         margin-top:30%;      
+         background-color: #FFFFFF;  
      }
  
      .content-md{   
@@ -27,16 +28,10 @@ page-listmodal {
         font-family: "Lato"
     }
      .label-md {
-        color:#191A45;
-         text-transform: initial;
-         font-size:26px;
-         font-family: "Lato"  
+      margin:0px;
      }
      .label-ios {
-        color:#191A45;
-         text-transform: initial;
-         font-size:26px;
-         font-family: "Lato"  
+        margin:0px;  
      }
 
      label, input, select, textarea {
@@ -53,4 +48,45 @@ page-listmodal {
         height: 4.2rem;
         max-height:4.2rem;
     }
+   
+
+    #delete{
+        
+        display: none;
+        width:95%;
+        position:relative;
+        top:100px;
+        border-radius:6px;
+        margin: auto;
+        background-color: #FFFFFF;  
+    }
+    .btn-style {
+        width:100%;
+        border-radius:30px;
+        background-color: #3096F7;
+        height: 5.0rem;
+        max-height: 5.0rem;
+        color:#FFFFFF;
+        font-size:17px;
+        font-family:"Lato-Bold";
+        text-transform: initial;
+    }
+    .span_text{
+     font-size:20px;
+     text-align: center;
+     white-space: normal;
+     color:#363636;
+     font-family: "Lato";
+     //padding:5px;
+     margin-top: 6px;
+    }
+    .row{
+        padding:0px;
+        margin:0px;
+        width: 85%;
+        margin: auto;
+        padding-bottom: 8px;
+
+    }
+   
 }

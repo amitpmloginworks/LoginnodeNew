@@ -49,12 +49,12 @@ page-addserver {
     .toolbar-title-md {
         color:#191A45;
         font-family: "Lato-Bold";
-        font-size:14px;
+        font-size:16px;
     }
     .toolbar-title-ios {
         color:#191A45;
         font-family: "Lato-Bold";
-        font-size:14px;
+        font-size:16px;
     }
 
 .text-input::-webkit-input-placeholder {
@@ -66,4 +66,9 @@ page-addserver {
 ion-navbar[hidebackbutton] button[menutoggle] {
     display: block !important;
   }
+  .alert-md .alert-head {
+      border-color:1px solid #3096F7;
+
+  }
+  
 }

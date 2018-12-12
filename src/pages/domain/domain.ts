@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {CommandslistPage } from '../commandslist/commandslist'
+import { DomainstatusPage } from '../domainstatus/domainstatus';
 
 /**
- * Generated class for the HelpPage page.
+ * Generated class for the DomainPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,19 +11,18 @@ import {CommandslistPage } from '../commandslist/commandslist'
 
 @IonicPage()
 @Component({
-  selector: 'page-help',
-  templateUrl: 'help.html',
+  selector: 'page-domain',
+  templateUrl: 'domain.html',
 })
-export class HelpPage {
+export class DomainPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HelpPage');
+    console.log('ionViewDidLoad DomainPage');
   }
-  commandsList(){
-   this.navCtrl.push(CommandslistPage);
+  checkDomainStatus(){
+    this.navCtrl.push(DomainstatusPage);
   }
-
 }

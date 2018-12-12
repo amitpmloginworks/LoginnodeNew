@@ -31,7 +31,7 @@
 <ion-content  style="background-color:#F9FBFC" padding>
   <ion-item no-lines >
     <ion-avatar item-start>
-      <img src="assets/icon/performance.png">
+      <img src="assets/icon/server.png">
     </ion-avatar>
     <h2 >Server Name</h2>
     <p>10.0.0.183</p>
@@ -45,7 +45,7 @@
     </ion-avatar>
     <h2 >Performance</h2>
     <p>Monitor Server Performance</p>
-    <button ion-button clear item-end>
+    <button ion-button clear item-end (click)="getPerformance()">
       <ion-icon>
         <img src="assets/icon/rightarrow.png"/>
       </ion-icon>

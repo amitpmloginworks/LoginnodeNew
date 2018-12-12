@@ -15,7 +15,7 @@
 
 <ion-content padding class="modal-page" text-center ion-fixed scroll="false">
 
-  <div class="div-main">
+  <div  id="div-main">
     <ion-item (click)="editServerDetails()">
       <button color="black" clear ion-button>
         <ion-icon>
@@ -25,7 +25,7 @@
       </button>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="delete()">
       <button color="black" clear ion-button>
         <ion-icon>
           <img src="assets/icon/delete.png" />
@@ -42,4 +42,26 @@
       </button>
     </ion-item>
   </div>
+
+
+  <div id="delete">
+    
+      <ion-item style="padding:0px;border-bottom:2px solid #3096F7;margin-top: 30%;">
+        <ion-label style="color:#363636;font-family:'Lato-Bold';padding-left:19px;font-size:16px">Delete Server</ion-label>
+      </ion-item>
+
+      <ion-list style="margin-top: 18px;margin-left: 16px;">
+        <ion-item no-lines style="padding-left: 18px;">
+         <span class="span_text">Do you want to Delete Server?</span>
+        </ion-item>
+      </ion-list>
+      <ion-row>
+        <ion-col>
+          <button  class="btn-style" ion-button (click)="yes()">Yes</button>
+        </ion-col>
+        <ion-col>
+          <button class="btn-style" ion-button (click)="no()">No</button>
+        </ion-col>
+      </ion-row>
+    </div>
 </ion-content>

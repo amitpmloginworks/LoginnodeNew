@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SchedulecommandsPage} from '../schedulecommands/schedulecommands';
+import { HelpPage } from '../help/help';
 
 /**
  * Generated class for the RuncommandsPage page.
@@ -29,4 +30,9 @@ clearLog(){
 scheduleCommands(){
   this.navCtrl.push(SchedulecommandsPage);
 }
+
+help(){
+this.navCtrl.push(HelpPage);
+}
+
 }

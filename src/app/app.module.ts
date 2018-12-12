@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AddserverPage } from '../pages/addserver/addserver';
 import { ServerdetailsPage } from '../pages/serverdetails/serverdetails';
@@ -23,7 +22,10 @@ import { DomainstatusPage} from '../pages/domainstatus/domainstatus';
 import { SchedulecommandsPage} from '../pages/schedulecommands/schedulecommands';
 import { CommandslistPage } from '../pages/commandslist/commandslist';
 import { HelpPage } from '../pages/help/help';
-
+import { EditServerPage } from '../pages/edit-server/edit-server';
+import { UpdatesuccessmodalPage  } from '../pages/updatesuccessmodal/updatesuccessmodal';
+import { PerformancePage  } from '../pages/performance/performance';
+import { DomainPage } from '../pages/domain/domain';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,11 @@ import { HelpPage } from '../pages/help/help';
     DomainstatusPage,
     SchedulecommandsPage,
     CommandslistPage,
-    HelpPage
+    HelpPage,
+    EditServerPage,
+    UpdatesuccessmodalPage,
+    PerformancePage,
+    DomainPage
     
   ],
   imports: [
@@ -70,7 +76,11 @@ import { HelpPage } from '../pages/help/help';
     DomainstatusPage,
     SchedulecommandsPage,
     CommandslistPage,
-    HelpPage
+    HelpPage,
+    EditServerPage,
+    UpdatesuccessmodalPage,
+    PerformancePage,
+    DomainPage
   ],
   providers: [
     StatusBar,

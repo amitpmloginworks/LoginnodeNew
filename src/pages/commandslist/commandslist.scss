@@ -2,12 +2,12 @@ page-commandslist {
     .toolbar-title-md {
         color:#191A45;
         font-family: "Lato-Bold";
-        font-size:14px;
+        font-size:16px;
     }
     .toolbar-title-ios {
         color:#191A45;
         font-family: "Lato-Bold";
-        font-size:14px;
+        font-size:16px;
     }
     .item-md[no-lines]{
         margin-bottom:20px;
@@ -25,10 +25,16 @@ page-commandslist {
     .item-ios ion-avatar img {
         border-radius: 0%; 
     }
-    
-
     .item-md h2{
         color:#3096F7;
+        overflow: inherit;
+        text-overflow: ellipsis;
+    }
+  
+    .item-ios h2{
+        color:#3096F7;
+        overflow: inherit;
+        text-overflow: ellipsis;
     }
   
     .item-md{
@@ -45,6 +51,11 @@ page-commandslist {
         background-color:#FFFFFF;
     }
     .item-md p{
+        color:#191A45;
+        font-family: "Lato";
+        font-size:12px;
+    }
+    .item-ios p{
         color:#191A45;
         font-family: "Lato";
         font-size:12px;

@@ -20,8 +20,12 @@ import { DomainstatusPage } from '../pages/domainstatus/domainstatus';
 import { SchedulecommandsPage } from '../pages/schedulecommands/schedulecommands';
 import { CommandslistPage } from '../pages/commandslist/commandslist'
 import { HelpPage } from '../pages/help/help';
+import { EditServerPage } from '../pages/edit-server/edit-server';
+import { UpdatesuccessmodalPage  } from '../pages/updatesuccessmodal/updatesuccessmodal';
+import { PerformancePage  } from '../pages/performance/performance';
+import {DomainPage } from '../pages/domain/domain'
 
-
+DomainstatusPage
 
 
 @Component({

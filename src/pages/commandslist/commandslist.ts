@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { ListmodalPage } from '../listmodal/listmodal'
 
 /**
  * Generated class for the CommandslistPage page.
@@ -15,11 +16,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CommandslistPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public modal:ModalController, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad CommandslistPage');
   }
 
+  deleteCommands(){
+      //this.navCtrl.push(ListmodalPage)
+    //  alert()
+      let deleteModal=this.modal.create(ListmodalPage, {type:0});
+      deleteModal.present();
+  }
 }

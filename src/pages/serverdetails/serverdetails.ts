@@ -7,7 +7,8 @@ import { ServicesPage } from '../services/services';
 import { ProcessPage } from '../process/process';
 import { BatchfilePage } from '../batchfile/batchfile';
 import { RuncommandsPage } from '../runcommands/runcommands';
-import { DomainstatusPage } from '../domainstatus/domainstatus';
+import { DomainPage } from '../domain/domain';
+import{ PerformancePage } from '../performance/performance';
 
 /**
  * Generated class for the ServerdetailsPage page.
@@ -58,7 +59,9 @@ runCommands(){
 }
 
 domainStatus(){
-  this.navCtrl.push(DomainstatusPage);
+  this.navCtrl.push(DomainPage);
 }
-
+getPerformance(){
+  this.navCtrl.push(PerformancePage);
+}
 }

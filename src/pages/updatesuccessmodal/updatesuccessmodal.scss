@@ -1,0 +1,72 @@
+page-updatesuccessmodal {
+        #div-main{
+             width:46%;
+             position:relative;
+             top:130px;
+             border-radius:6px;
+             float:right;
+             background-color: #FFFFFF;  
+         }
+         .content-md{   
+             background-color: rgba(0,0,0,0.6);
+         }
+         .content-ios{   
+            background-color: rgba(0,0,0,0.6);
+        }
+        
+         .label-md {
+          margin:0px;
+         }
+         .label-ios {
+            margin:0px;  
+         }
+        .item-md{
+            height: 4.2rem;
+            max-height:4.2rem;
+        }
+        .item-ios{
+            height: 4.2rem;
+            max-height:4.2rem;
+        }
+       
+    
+        #success{
+            width:95%;
+            position:relative;
+            top:100px;
+            border-radius:6px;
+            margin: auto;
+            background-color: #FFFFFF;  
+        }
+        .btn-style {
+            width:55%;
+            border-radius:30px;
+            background-color: #3096F7;
+            height: 5.0rem;
+            max-height: 5.0rem;
+            color:#FFFFFF;
+            font-size:17px;
+            margin: auto;
+            font-family:"Lato-Bold";
+            text-transform: initial;
+        }
+        .span_text{
+         font-size:20px;
+         text-align: center;
+         white-space: normal;
+         color:#363636;
+         font-family: "Lato";
+         margin-top: 6px;
+        }
+        .row{
+            padding:0px;
+            margin:0px;
+            width: 85%;
+            margin: auto;
+            padding-bottom: 8px;
+    
+        }
+        .col{
+            text-align: center;
+        }
+}

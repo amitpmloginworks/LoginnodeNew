@@ -1,0 +1,90 @@
+page-performance {
+    .scroll-content {
+        background-color: map-get($colors, light);
+    }
+
+    ion-card-header {
+        font-weight: bold;
+    }
+    .card-content-md {
+        padding:0px;
+    }
+    .card-content-ios {
+        padding:0px;
+    }
+    .card-header-md{
+        padding-bottom:0px; 
+        padding-top: 10px;
+    }
+    .card-header-ios{
+        padding-bottom:0px; 
+        padding-top: 10px;
+    }
+    .p-type{
+     color:#3096F7;
+     font-family: "Lato";
+     font-size:16px;
+    }
+
+    .p-info{
+        color:#191A45;
+        font-family: "Lato";
+        font-size:12px;
+    }
+    .toolbar-title-md {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:16px;
+    }
+    .toolbar-title-ios {
+        color:#191A45;
+        font-family: "Lato-Bold";
+        font-size:16px;
+    }
+
+    .item-md ion-avatar img {
+         border-radius: 0%; 
+        overflow: hidden;
+        width: 35px;
+        height: 35px;
+    }
+    .item-ios ion-avatar img {
+        border-radius: 0%; 
+       overflow: hidden;
+       width: 35px;
+       height: 35px;
+   }
+
+   .item-md{
+    margin-bottom: 17px;
+    border: 1px solid #E8E9EB;
+    border-radius:5px;
+    background-color:#FFFFFF;
+   
+}
+.item-ios{
+    margin-bottom: 17px;
+    border: 0.6px solid #E8E9EB;
+    border-radius:5px;
+    background-color:#FFFFFF;
+   
+}
+
+ .item-block[no-lines] {
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+ }
+ .p-details{
+     color:#363636;
+     font-family: "Lato-Bold";
+     font-size:"16px"
+ }
+ .card-md {
+     border:1px solid #E8E9EB;
+     box-shadow: none;
+ }
+ .card-ios {
+    border:1px solid #E8E9EB;
+    box-shadow: none;
+}
+}
