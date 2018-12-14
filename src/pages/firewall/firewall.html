@@ -24,7 +24,7 @@
       <img src="assets/icon/checked.png">
     </ion-avatar>
     <h2>Server Name</h2>
-    <p>10.0.0.183</p>
+    <p>(10.0.0.183)</p>
     <button style="height:40px; margin-right: 0px; padding-right: 0px;" ion-button clear item-end>
       <ion-icon (click)="selectFirewallType()">
         <img src="assets/icon/group.png" />
@@ -35,12 +35,12 @@
 
   <ion-item no-lines style="border:0px solid #fff; padding-left:0px; background-color: #F9FBFC">
     <ion-label style="font-family:Lato-Bold;color:#363636; margin-left:0px">Turn Windows Firewall on or off</ion-label>
-    <!-- <ion-toggle mode='ios' [(ngModel)]="pepperoni"></ion-toggle> -->
-    <button ion-button clear item-end>
+     <ion-toggle mode='ios' [(ngModel)]="pepperoni"></ion-toggle> 
+    <!-- <button ion-button clear item-end>
       <ion-icon style="font-size:0.5rem">
-        <img width="40" height="27" src="assets/icon/off.png" />
+        <img width="48" height="25" src="assets/icon/off.png" />
       </ion-icon>
-    </button>
+    </button> -->
   </ion-item>
 
   <ion-list>
@@ -48,63 +48,66 @@
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Performance</h2>
-      <p>performance</p>
-      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text">
+      <!-- <h2>Performance</h2>
+      <p>performance</p> -->
+      <ion-label >Performance<span class="span-text" >performance</span></ion-label>
+      <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text">
 
-      </ion-toggle> -->
-      <button ion-button clear item-end>
+      </ion-toggle>
+      <!-- <button ion-button clear item-end>
         <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/on.png" />
+          <img width="48" height="25" src="assets/icon/on.png" />
         </ion-icon>
-      </button>
+      </button> -->
     </ion-item>
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Run Command</h2>
-      <p>Execute Commands in cmd</p>
-
-      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text2">
-      </ion-toggle> -->
-      <button ion-button clear item-end>
+      <!-- <h2>Run Command</h2>
+      <p>Execute Commands in cmd</p> -->
+      <ion-label >Run Command<span class="span-text" >Execute Commands in cmd</span></ion-label>
+      <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text2">
+      </ion-toggle>
+      <!-- <button ion-button clear item-end>
         <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/off.png" />
+          <img width="48" height="25" src="assets/icon/off.png" />
         </ion-icon>
-      </button>
+      </button> -->
     </ion-item>
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Batch File</h2>
-      <p>Acess List of Batch Files</p>
-<!-- 
+      <ion-label>Batch File <span class="span-text">Acess List of Batch Files</span></ion-label>
+      <!-- <h2></h2>
+      <p>Acess List of Batch Files</p> -->
+
       <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text1">
-        <p>fsfsd</p>
-      </ion-toggle> -->
+        
+      </ion-toggle> 
 
-      <button ion-button clear item-end>
+      <!-- <button ion-button clear item-end>
         <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/on.png" />
+          <img width="48" height="25" src="assets/icon/on.png" />
         </ion-icon>
-      </button>
+      </button> -->
     </ion-item>
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
+      
       </ion-avatar>
-      <h2>Skype</h2>
-      <p>Acess List of Batch Files</p>
-      <!-- <ion-toggle (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text4">
-
-      </ion-toggle> -->
-      <button ion-button clear item-end>
+      <ion-label >Skype<span class="span-text" >Acess List of Batch Files</span></ion-label>
+      
+    <ion-toggle  ion-toggle-text mode='ios' [(ngModel)]="text4">
+  
+      </ion-toggle> 
+      <!-- <button ion-button clear item-end>
         <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/off.png" />
+          <img width="48" height="25" src="assets/icon/off.png" />
         </ion-icon>
-      </button>
+      </button> -->
     </ion-item>
   </ion-list>
 </ion-content>

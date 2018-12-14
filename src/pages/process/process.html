@@ -7,32 +7,40 @@
 <ion-header>
 
   <ion-navbar color='light'>
-
     <ion-title text-center>Process</ion-title>
     <ion-buttons end>
-      <button ion-button (click)="doClick()">
+      <button ion-button (click)="search()">
         <ion-icon>
           <img src="assets/icon/search.png" />
         </ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 
-<ion-content style="background-color: #FFFFFF" padding>
+<ion-content style="background-color: #FFFFFF" no-padding>
+<div id="search" style="width:100%;background-color: #3096F7;height:59px;padding-left: 17px;">
+  <div class="div-search">
+<ion-item style="margin-bottom:0px;height:1.0rem;max-height:1.0rem; min-height:3.8rem;border-radius:10px" >
+  <ion-input style="font-size:12px;color:#000000" placeholder="Enter Your Keyword"></ion-input>
+</ion-item>
+  </div>
+  <div style="width:30%;float:left;background-color: #3096F7;padding:10px;padding-left:0px;height:59px">
+     <button class="btn-search" ion-button>Search</button>
+        </div>
+</div>
 
-  <ion-item no-lines>
+  <ion-item no-lines style="margin:16px">
     <ion-avatar item-start>
-      <img src="assets/icon/processDetails.png">
+      <img src="assets/icon/server.png">
     </ion-avatar>
     <h2>Server Name</h2>
     <p style="font-size:12px">(10.0.0.183)</p>
   </ion-item>
 
-  <p class="p-details">Details</p>
-  <ion-list>
+  <span class="p-details" >Details</span>
+  <ion-list padding>
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/processDetails.png">
@@ -68,7 +76,7 @@
       <h2>Chrome</h2>
       <h2>155.25MB</h2>
       <p>Google Chrome</p>
-      <button ion-button clear item-end >
+      <button ion-button clear item-end>
         <ion-icon>
           <img src="assets/icon/rightarrow.png" />
         </ion-icon>

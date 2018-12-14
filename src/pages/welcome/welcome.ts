@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
 import { AddserverPage } from '../addserver/addserver';
 
 /**
@@ -25,7 +24,7 @@ export class WelcomePage {
   }
 
   navigateToAddServer(){
-this.navCtrl.push(AddserverPage);
+     this.navCtrl.push(AddserverPage);
   }
 
 }

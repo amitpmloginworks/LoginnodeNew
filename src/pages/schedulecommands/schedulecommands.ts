@@ -25,10 +25,12 @@ export class SchedulecommandsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SchedulecommandsPage');
   }
+  
   commandsList(){
- this.navCtrl.push(CommandslistPage);
+    this.navCtrl.push(CommandslistPage);
   }
+
   help(){
-this.navCtrl.push(HelpPage);
+    this.navCtrl.push(HelpPage);
   }
 }

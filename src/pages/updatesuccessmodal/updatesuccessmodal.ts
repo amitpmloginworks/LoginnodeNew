@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import {ServerListPage } from '../server-list/server-list'
 
 /**
  * Generated class for the UpdatesuccessmodalPage page.
@@ -23,5 +24,6 @@ export class UpdatesuccessmodalPage {
   }
   ok(){
     this.viewCtrl.dismiss();
+    this.navCtrl.push(ServerListPage);
   }
 }

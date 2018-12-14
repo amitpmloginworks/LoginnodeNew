@@ -26,6 +26,7 @@ import { EditServerPage } from '../pages/edit-server/edit-server';
 import { UpdatesuccessmodalPage  } from '../pages/updatesuccessmodal/updatesuccessmodal';
 import { PerformancePage  } from '../pages/performance/performance';
 import { DomainPage } from '../pages/domain/domain';
+import { DeletecommandmodalPage } from '../pages/deletecommandmodal/deletecommandmodal';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { DomainPage } from '../pages/domain/domain';
     EditServerPage,
     UpdatesuccessmodalPage,
     PerformancePage,
-    DomainPage
+    DomainPage,
+    DeletecommandmodalPage
     
   ],
   imports: [
@@ -80,7 +82,8 @@ import { DomainPage } from '../pages/domain/domain';
     EditServerPage,
     UpdatesuccessmodalPage,
     PerformancePage,
-    DomainPage
+    DomainPage,
+    DeletecommandmodalPage
   ],
   providers: [
     StatusBar,

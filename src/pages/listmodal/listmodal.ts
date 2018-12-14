@@ -27,6 +27,7 @@ type:any;
     console.log('ionViewDidLoad ListmodalPage');
   }
   editServerDetails(){
+    this.viewCtrl.dismiss();
 this.navCtrl.push(EditServerPage);
   }
   cancel(){
@@ -39,32 +40,9 @@ document.getElementById("delete").style.display="block"
 document.getElementById("div-main").style.display="none"
 
 }
-  presentConfirm() {
-    let alert = this.alertCtrl.create({
-      title: 'Delete Server',
-      message: 'Do you want to Delete  Server?',
-      buttons: [
-        {
-          text: 'Yes',
-          
-          handler: () => {
-            console.log('yes clicked');
-          }
-        },
-        {
-          text: 'No',
-          role: 'cancel',
-          handler: () => {
-            console.log('no clicked');
-          }
-        }
-      ]
-    });
-    alert.present();
-  }
+  
 
   yes(){
-    console.log();
     document.getElementById("delete").style.display="none"
     this.viewCtrl.dismiss();
   }
@@ -72,6 +50,5 @@ document.getElementById("div-main").style.display="none"
   no(){
     document.getElementById("delete").style.display="none"
     this.viewCtrl.dismiss();
-    console.log();
   }
 }

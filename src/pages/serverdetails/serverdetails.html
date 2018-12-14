@@ -4,149 +4,158 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header  >
+<ion-header>
 
-  <ion-navbar color='light' hideBackButton >
-      <button (click)="openMenu()" menuToggle="left" ion-button  >
-          <ion-icon >  <img  width="15" src="assets/icon/menu.png" ></ion-icon>
-       </button>
-      <!-- <ion-buttons left (click)="menu()">
+  <ion-navbar color='light' hideBackButton>
+    <button (click)="openMenu()" menuToggle="left" ion-button>
+      <ion-icon>
+        <img width="15" src="assets/icon/menu.png">
+      </ion-icon>
+    </button>
+    <!-- <ion-buttons left (click)="menu()">
           <button ion-button icon-only >
              <ion-icon item-start>  <img item-left width="15" src="assets/icon/menu.png" ></ion-icon>
           </button>
        </ion-buttons> -->
     <ion-title text-center>Server Detail</ion-title>
-      <ion-buttons end>
+    <ion-buttons end>
       <button ion-button (click)="doClick()">
-        <ion-icon >
-          <img src="assets/icon/notify.png"/>
+        <ion-icon>
+          <img src="assets/icon/notify.png" />
         </ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 
-<ion-content  style="background-color:#F9FBFC" padding>
-  <ion-item no-lines >
+<ion-content style="background-color:#F9FBFC" padding>
+  <ion-item no-lines>
     <ion-avatar item-start>
       <img src="assets/icon/server.png">
     </ion-avatar>
-    <h2 >Server Name</h2>
-    <p>10.0.0.183</p>
-  
+    <h2>Server Name</h2>
+    <p>(10.0.0.183)</p>
   </ion-item>
-<p class="p-details">Details</p>
+
+  <p class="p-details">Details</p>
   <ion-list>
-      <ion-item>
-    <ion-avatar item-start>
-      <img src="assets/icon/performance.png">
-    </ion-avatar>
-    <h2 >Performance</h2>
-    <p>Monitor Server Performance</p>
-    <button ion-button clear item-end (click)="getPerformance()">
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item (click)="runCommands()">
-    <ion-avatar item-start>
-      <img src="assets/icon/runcommand.png">
-    </ion-avatar>
-    <h2>Run Command</h2>
-    <p>Execute Commands in cmd</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item (click)="batchFile()">
-    <ion-avatar item-start>
-      <img src="assets/icon/batchFile.png">
-    </ion-avatar>
-    <h2>Batch File</h2>
-    <p>Access List of Batch Files</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item (click)="getProcess()">
-    <ion-avatar item-start>
-      <img src="assets/icon/process.png">
-    </ion-avatar>
-    <h2>Process</h2>
-    <p>Monitor running Process</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
- 
-  <ion-item (click)="navigateToFirewall()">
-    <ion-avatar item-start>
-      <img src="assets/icon/firewall.png">
-    </ion-avatar>
-    <h2>Firewall</h2>
-    <p>Change Firewall Settings</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item (click)="getServices()">
-    <ion-avatar item-start>
-      <img src="assets/icon/process.png">
-    </ion-avatar>
-    <h2>Services</h2>
-    <p>Control Services</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item>
-    <ion-avatar item-start>
-      <img src="assets/icon/iis.png">
-    </ion-avatar>
-    <h2>IIS</h2>
-    <p>Manage IIS</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item (click)="domainStatus()">
-    <ion-avatar item-start>
-      <img src="assets/icon/domainstatus.png">
-    </ion-avatar>
-    <h2>Domain Status</h2>
-    <p>Check Domain Status</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
-  <ion-item>
-    <ion-avatar item-start>
-      <img src="assets/icon/restart.png">
-    </ion-avatar>
-    <h2>HTTP Request</h2>
-    <p>Loreum Ipsum</p>
-    <button ion-button clear item-end>
-      <ion-icon>
-        <img src="assets/icon/rightarrow.png"/>
-      </ion-icon>
-    </button>
-  </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/performance.png">
+      </ion-avatar>
+      <h2>Performance</h2>
+      <p>Monitor Server Performance</p>
+      <button ion-button clear item-end (click)="getPerformance()">
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="runCommands()">
+      <ion-avatar item-start>
+        <img src="assets/icon/runcommand.png">
+      </ion-avatar>
+      <h2>Run Command</h2>
+      <p>Execute Commands in cmd</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="batchFile()">
+      <ion-avatar item-start>
+        <img src="assets/icon/batchFile.png">
+      </ion-avatar>
+      <h2>Batch File</h2>
+      <p>Access List of Batch Files</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="getProcess()">
+      <ion-avatar item-start>
+        <img src="assets/icon/process.png">
+      </ion-avatar>
+      <h2>Process</h2>
+      <p>Monitor running Process</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="navigateToFirewall()">
+      <ion-avatar item-start>
+        <img src="assets/icon/firewall.png">
+      </ion-avatar>
+      <h2>Firewall</h2>
+      <p>Change Firewall Settings</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="getServices()">
+      <ion-avatar item-start>
+        <img src="assets/icon/process.png">
+      </ion-avatar>
+      <h2>Services</h2>
+      <p>Control Services</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/iis.png">
+      </ion-avatar>
+      <h2>IIS</h2>
+      <p>Manage IIS</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item (click)="domainStatus()">
+      <ion-avatar item-start>
+        <img src="assets/icon/domainstatus.png">
+      </ion-avatar>
+      <h2>Domain Status</h2>
+      <p>Check Domain Status</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/icon/restart.png">
+      </ion-avatar>
+      <h2>HTTP Request</h2>
+      <p>Loreum Ipsum</p>
+      <button ion-button clear item-end>
+        <ion-icon>
+          <img src="assets/icon/rightarrow.png" />
+        </ion-icon>
+      </button>
+    </ion-item>
+
   </ion-list>
 </ion-content>

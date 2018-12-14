@@ -31,7 +31,6 @@ export class AddserverPage {
 
 
   openMenu(){
-
     this.menuCtrl.enable(true, 'authenticated');
   }
 

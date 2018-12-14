@@ -95,4 +95,18 @@ page-services {
     overflow: hidden;
     text-overflow:ellipsis;
 }
+.span-text{
+    color: #191A45;
+    font-family: "Lato";
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:flex
+}
+.item-md ion-avatar{
+    margin-top:13px ! important
+}
+.item-ios ion-avatar{
+    margin-top:13px ! important
+}
 }

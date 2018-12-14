@@ -25,7 +25,6 @@ import { UpdatesuccessmodalPage  } from '../pages/updatesuccessmodal/updatesucce
 import { PerformancePage  } from '../pages/performance/performance';
 import {DomainPage } from '../pages/domain/domain'
 
-DomainstatusPage
 
 
 @Component({

@@ -63,12 +63,12 @@ page-addserver {
   .item-md.item-block .item-inner {
     border-bottom: 0px solid #FFFFFF;
 }
+.item-ios.item-block .item-inner {
+    border-bottom: 0px solid #FFFFFF;
+}
 ion-navbar[hidebackbutton] button[menutoggle] {
     display: block !important;
   }
-  .alert-md .alert-head {
-      border-color:1px solid #3096F7;
 
-  }
   
 }

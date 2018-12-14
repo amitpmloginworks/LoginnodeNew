@@ -28,8 +28,6 @@ export class SplashPage {
   ionViewDidEnter() {
     this.splashScreen.hide();
     setTimeout(() => {
-    //  this.viewCtrl.dismiss();
-      //this.navCtrl.push(WelcomePage);
       this.navtowelcomePage();
     }, 4000);
  

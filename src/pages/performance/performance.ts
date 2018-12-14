@@ -158,17 +158,18 @@ export class PerformancePage {
     type: 'line',
     
     data: {
+
       //labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
       datasets: [{
         label: '',
         data: [12, 19, 3, 17, 6, 3, 7],
-        backgroundColor: "rgba(234, 241, 245, 1)",
+        backgroundColor: "rgba(234, 241, 245, 0.7)",
         
       }, {
         label: '',
         data: [2, 29, 5, 5, 15, 20, 10],
-        backgroundColor: "rgba(232, 237, 240, 1)"
+        backgroundColor: "rgba(232, 237, 240, 0.5)"
       }],
       
     }

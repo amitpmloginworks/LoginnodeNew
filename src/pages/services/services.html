@@ -7,16 +7,9 @@
 
 <ion-header>
   <ion-navbar color='light'>
-
-    <!-- <ion-buttons left (click)="menu()">
-      <button ion-button icon-only >
-         <ion-icon item-start>  <img item-left width="15" src="assets/icon/menu.png" ></ion-icon>
-      </button>
-   </ion-buttons> -->
-
     <ion-title text-center>Services</ion-title>
     <ion-buttons end>
-      <button ion-button (click)="doClick()">
+      <button ion-button>
         <ion-icon>
           <img src="assets/icon/search.png" />
         </ion-icon>
@@ -32,69 +25,55 @@
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Application Experience</h2>
-      <p>App info</p>
-      <button ion-button clear item-end>
-        <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/off.png" />
-        </ion-icon>
-      </button>
+      
+      <ion-label>Application Experience<span class="span-text">App info</span></ion-label>
+      <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text1">   
+        </ion-toggle>
     </ion-item>
 
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Application Gateway</h2>
-      <p>ALG</p>
-      <button ion-button clear item-end>
-        <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/on.png" />
-        </ion-icon>
-      </button>
+     
+      <ion-label>Application Gateway<span class="span-text">ALG</span></ion-label>
+      <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text2">   
+        </ion-toggle>
+    
+   
     </ion-item>
 
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Application Host Identity</h2>
-      <p>AppHostSvc</p>
-      <button ion-button clear item-end>
-        <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/off.png" />
-        </ion-icon>
-      </button>
+      <ion-label>Application Host Identity<span class="span-text">AppHostSvc</span></ion-label>
+      <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text6">   
+        </ion-toggle>
+    
     </ion-item>
 
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Application Information</h2>
-      <p>Appinfo</p>
-      <button ion-button clear item-end>
-        <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/on.png" />
-        </ion-icon>
-      </button>
+      <ion-label>Application Information<span class="span-text">Appinfo</span></ion-label> 
+      <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text3">   
+        </ion-toggle>
     </ion-item>
 
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
       </ion-avatar>
-      <h2>Skype</h2>
-      <p>App Readiness</p>
-      <!-- <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text5">   
-                          </ion-toggle> -->
-      <button ion-button clear item-end>
-        <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/off.png" />
-        </ion-icon>
-      </button>
+      <ion-label>Skype<span class="span-text">App Readiness</span></ion-label>
+      <!-- <h2>Skype</h2>
+      <p>App Readiness</p> -->
+      <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text4">   
+                          </ion-toggle>
+   
     </ion-item>
-
+<!-- 
     <ion-item>
       <ion-avatar item-start>
         <img src="assets/icon/checked.png">
@@ -103,10 +82,21 @@
       <p>AppXSvc</p>
       <button ion-button clear item-end>
         <ion-icon style="font-size:0.5rem">
-          <img width="40" height="27" src="assets/icon/on.png" />
+          <img width="48" height="25" src="assets/icon/on.png" />
         </ion-icon>
       </button>
-    </ion-item>
+    </ion-item> -->
+
+
+
+    <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/icon/checked.png">
+        </ion-avatar>
+        <ion-label>AppX Deployment Server<span class="span-text">AppXSvc</span></ion-label>
+        <ion-toggle  (ionChange)="updateItem(text)" ion-toggle-text mode='ios' [(ngModel)]="text5">   
+          </ion-toggle> 
+      </ion-item>
   </ion-list>
 
 </ion-content>

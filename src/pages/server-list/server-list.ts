@@ -39,8 +39,8 @@ export class ServerListPage {
    }
 
    listModal(){
-  let listModalPage=this.modalCtrl.create(ListmodalPage);
-  listModalPage.present();
+     let listModalPage=this.modalCtrl.create(ListmodalPage);
+     listModalPage.present();
    }
 
 

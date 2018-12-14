@@ -26,6 +26,7 @@ page-process {
     color:#191A45;
     font-family: "Lato-Bold";
     font-size:16px;
+    padding-left: 16px;
     }
     
     .item-block[no-lines] {
@@ -113,4 +114,44 @@ page-process {
         border-radius:10px;
         background-color:#FFFFFF
     }
+    .row{
+        width:85%;
+        margin:auto;
+    }
+
+    .btn-search{
+        height: 3.8rem;
+        margin-top: 0px;
+        border-radius: 10px;
+        background-color: #FFD500;
+        color: #000000;
+        font-family: "Lato-Bold";
+        font-size: 12px;
+        padding-top: 3px;
+    }
+    .div-main{
+    width:100%;
+    background-color: #3096F7;
+    height:52px
+    }
+    .div-search{
+    width:70%;
+    float:left;
+    background-color: #3096F7; 
+    padding:10px;
+    
+    }
+    .item-style{
+        margin-bottom:0px;
+        height:1.0rem;
+        max-height:1.0rem; 
+        min-height:3.2rem
+    }
+    .text-input::-webkit-input-placeholder {
+        color: #000000;
+         font-family:"Lato"
+      }
+      #search{
+          display:none;
+      }
 }

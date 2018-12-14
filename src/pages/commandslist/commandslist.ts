@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
-import { ListmodalPage } from '../listmodal/listmodal'
+import { DeletecommandmodalPage } from '../deletecommandmodal/deletecommandmodal'
 
 /**
  * Generated class for the CommandslistPage page.
@@ -24,9 +24,8 @@ export class CommandslistPage {
   }
 
   deleteCommands(){
-      //this.navCtrl.push(ListmodalPage)
-    //  alert()
-      let deleteModal=this.modal.create(ListmodalPage, {type:0});
-      deleteModal.present();
+  
+       let deleteModal=this.modal.create(DeletecommandmodalPage);
+       deleteModal.present();
   }
 }

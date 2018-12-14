@@ -1,0 +1,142 @@
+page-deletecommandmodal {
+    #div-main{
+        width:46%;
+        position:relative;
+        top:130px;
+        border-radius:6px;
+        float:right;
+        background-color: #FFFFFF;  
+    }
+    .content-md{   
+        background-color: rgba(0,0,0,0.6);
+    }
+    .content-ios{   
+       background-color: rgba(0,0,0,0.6);
+   }
+   
+    .label-md {
+     margin:0px;
+    }
+    .label-ios {
+       margin:0px;  
+    }
+   .item-md{
+       padding-left:0px;
+       height: 4.2rem;
+       max-height:4.2rem;
+       border-radius: 6px;
+   }
+   .item-ios{
+       padding-left:0px;
+       height: 4.2rem;
+       max-height:4.2rem;
+       border-radius: 6px;
+   }
+   .list-md .item[no-lines]{
+       text-align: center ! important;
+   }
+   .list-ios .item[no-lines]{
+       text-align: center ! important;
+   }
+   #success{
+       display:none;
+       width:95%;
+       position:relative;
+       top:100px;
+       border-radius:6px;
+       margin: auto;
+       background-color: #FFFFFF;  
+   }
+   .btn-style {
+       width:45%;
+       border-radius:30px;
+       background-color: #3096F7;
+       height: 5.0rem;
+       max-height: 5.0rem;
+       color:#FFFFFF;
+       font-size:17px;
+       margin: auto;
+       font-family:"Lato-Bold";
+       text-transform: initial;
+   }
+   .span_text{
+    font-size:20px;
+    text-align: center;
+    white-space: normal;
+    color:#363636;
+    font-family: "Lato";
+    margin-top: 6px;
+   }
+   .row{
+       padding:0px;
+       margin:0px;
+       width: 85%;
+       margin: auto;
+       padding-bottom: 8px;
+   }
+   .col{
+       text-align: center;
+   }
+   .list-md {
+       margin: -1px 2px 17px;
+   }
+   .list-ios {
+       margin: -1px 2px 17px;
+   }
+
+   #delete{
+        
+    display:none;
+    width:95%;
+    position:relative;
+    top:100px;
+    border-radius:6px;
+    margin: auto;
+    background-color: #FFFFFF;  
+}
+.btn-style1 {
+    width:100%;
+    border-radius:30px;
+    background-color: #3096F7;
+    height: 5.0rem;
+    max-height: 5.0rem;
+    color:#FFFFFF;
+    font-size:17px;
+    font-family:"Lato-Bold";
+    text-transform: initial;
+}
+.span_text{
+ font-size:20px;
+ text-align: center;
+ white-space: normal;
+ color:#363636;
+ font-family: "Lato";
+ //padding:5px;
+ margin-top: 6px;
+}
+.row{
+    padding:0px;
+    margin:0px;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 8px;
+
+}
+#div-main{
+    width:46%;
+    position:relative;
+    top:130px;
+    border-radius:6px;
+    float:right;
+    background-color: #FFFFFF;  
+}
+.label-md{
+    color:#000000
+}
+label, input, select, textarea {
+    color:#191A45;
+     text-transform: initial;
+     font-size:16px;
+     font-family: "Lato" 
+}
+}

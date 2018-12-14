@@ -23,13 +23,21 @@ page-updatesuccessmodal {
         .item-md{
             height: 4.2rem;
             max-height:4.2rem;
+            border-radius: 6px;
+            //padding-left:0px;
         }
         .item-ios{
             height: 4.2rem;
             max-height:4.2rem;
+            //padding-left:0px;
+            border-radius: 6px;
         }
-       
-    
+        .list-md .item[no-lines]{
+            text-align: center ! important;
+        }
+        .list-ios .item[no-lines]{
+            text-align: center ! important;
+        }
         #success{
             width:95%;
             position:relative;
@@ -39,7 +47,7 @@ page-updatesuccessmodal {
             background-color: #FFFFFF;  
         }
         .btn-style {
-            width:55%;
+            width:45%;
             border-radius:30px;
             background-color: #3096F7;
             height: 5.0rem;
@@ -64,9 +72,14 @@ page-updatesuccessmodal {
             width: 85%;
             margin: auto;
             padding-bottom: 8px;
-    
         }
         .col{
             text-align: center;
+        }
+        .list-md {
+            margin: -1px 2px 17px;
+        }
+        .list-ios {
+            margin: -1px 2px 17px;
         }
 }

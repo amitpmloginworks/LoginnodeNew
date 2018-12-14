@@ -36,4 +36,7 @@ no(){
   document.getElementById("overlay").style.display = "none";
  
 }
+search(){
+  document.getElementById("search").style.display="block"
+}
 }

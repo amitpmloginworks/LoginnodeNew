@@ -20,7 +20,8 @@ h2{
 
 p{
   color:#191A45;
-  font-family: "Lato"  
+  font-family: "Lato";
+  font-size:12px;  
 }
 .p-details{
 color:#191A45;
@@ -68,4 +69,14 @@ font-size:16px;
 ion-navbar[hidebackbutton] button[menutoggle] {
     display: block !important;
   }
+  .item-md p{
+      font-size:13px;
+      color:#191A45;
+      font-family:"Lato"
+  }
+  .item-ios p{
+    font-size:13px;
+    color:#191A45;
+    font-family:"Lato"
+}
 }

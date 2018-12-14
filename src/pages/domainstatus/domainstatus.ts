@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DomainPage } from '../domain/domain'
 
 /**
  * Generated class for the DomainstatusPage page.
@@ -13,13 +14,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-domainstatus',
   templateUrl: 'domainstatus.html',
 })
-export class DomainstatusPage {
 
+export class DomainstatusPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DomainstatusPage');
+  }
+
+  checkDomainStatus(){
+   this.navCtrl.pop();
   }
 
 }
